@@ -1,3 +1,4 @@
+# -*- coding: cp936 -*-
 """
 @file: pipeline.py
 @author: lishihang 
@@ -24,7 +25,7 @@ class DataPiple:
         """
 
         :param target:
-        :param impro: æ˜¯å¦æ•°æ®å¢å¼º
+        :param impro: ÊÇ·ñÊı¾İÔöÇ¿
         """
 
         self.target = pd.read_csv(target, header=None, sep='\t').sample(frac=1)
@@ -57,7 +58,7 @@ class DataPiple:
             words.append(word)
             labels.append(label)
         ims=np.array(ims)
-        # åšæ•°æ®å¢å¼º
+        # ×öÊı¾İÔöÇ¿
         if self.impro == True:
             ims=datagen.flow(ims,batch_size=len(ims),shuffle=False).__next__()
         else:
@@ -73,7 +74,7 @@ class DataPiple:
     def create_inputs(self,size=64):
 
         while True:
-			self.target = self.target.sample(frac=1) # æ›´æ–°æ­¤å¤„ï¼Œæœªæµ‹è¯•
+            self.target = self.target.sample(frac=1) # ¸üĞÂ´Ë´¦£¬Î´²âÊÔ
             for i in range(0,self.fea_size,size):
                 ims, attrs, words,labels=self.readFeather(i,size)
                 # print(ims.shape)
