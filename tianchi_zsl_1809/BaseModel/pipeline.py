@@ -27,7 +27,7 @@ class DataPiple:
         :param impro: 是否数据增强
         """
 
-        self.target = pd.read_csv(target, header=None, sep='\t').sample(frac=1,random_state=2018)
+        self.target = pd.read_csv(target, header=None, sep='\t').sample(frac=1)
         self.fea_size=len(self.target)
         self.impro=impro
         self.imgsize=imgsize
@@ -73,6 +73,7 @@ class DataPiple:
     def create_inputs(self,size=64):
 
         while True:
+			self.target = self.target.sample(frac=1) # 更新此处，未测试
             for i in range(0,self.fea_size,size):
                 ims, attrs, words,labels=self.readFeather(i,size)
                 # print(ims.shape)
