@@ -26,8 +26,8 @@ def MappingModel():
 
     basemodel=VGG16(include_top=False,weights="imagenet",input_shape=(64,64,3))
     y=Flatten()(basemodel.output)
-    y=Dense(512,activation='relu')(y)
-    y=Dropout(0.5)(y)
+    y=Dense(1024,activation='relu')(y)
+    # y=Dropout(0.5)(y)
     predense=[Dense(v,activation="softmax",name=k)(y) for k,v in classes.items()]
 
     my_model = Model(inputs=basemodel.input, outputs=predense)
@@ -52,7 +52,7 @@ def MappingModel():
 def ImageModel():
     basemodel=VGG16(include_top=False,weights="imagenet",input_shape=(64,64, 3))
     y=Flatten()(basemodel.output)
-    # y = Dense(1024, activation='relu')(y)
+    y = Dense(1024, activation='relu')(y)
     y = Dense(190, activation='softmax')(y)
 
     my_model=Model(basemodel.input,y)
