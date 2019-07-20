@@ -1,7 +1,5 @@
+
 /.idea
-/data
-/test.py
-/v1.0/data
-/v1.0/output
-/v2.0/data
-/v2.0/output
+/data/jingwei_round1_train_20190619
+/v2.2_unet/__pycache__
+/data/jingwei_round1_test_a_20190619
