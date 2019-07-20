@@ -29,7 +29,8 @@
 
 使用Unet-densenet121语义分割，切割大小1500，旋转变换增强Resize到384输入，损失函数cce_dice_loss。
 没来的及提交。下面是效果图。
-<img src="data/20190720105651.png" width=45%><img src="data/20190720105717.png"  width=45%>
+
+<img src="data/20190720105651.png" width=40%><img src="data/20190720105717.png"  width=40%>
 
 ## 总结
 
