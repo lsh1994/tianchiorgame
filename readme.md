@@ -7,5 +7,5 @@
 [天池铝型材表面瑕疵识别初赛](https://github.com/lsh1994/tianchiorgame/tree/master/tianchi_defectIdentify_1809)  
 [天池零样本图像识别初赛](https://github.com/lsh1994/tianchiorgame/tree/master/tianchi_zsl_1809)  
 [天池2019年县域农业大脑AI挑战赛](https://github.com/lsh1994/tianchiorgame/tree/master/tianchi_agriculture_2019)  
-[DataFountain“观云识天”-机器图像算法赛道-天气识别]()
+[DataFountain “观云识天”-机器图像算法赛道-天气识别(PyTorch)](https://github.com/lsh1994/tianchiorgame/tree/master/df_WeatherClassify)
 
