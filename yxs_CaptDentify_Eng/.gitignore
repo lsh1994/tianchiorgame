@@ -1,0 +1,11 @@
+data/
+/.idea
+/__pycache__
+/ctc_pytorch/output
+/ctc_pytorch/__pycache__
+/data.zip
+/submit_all
+/submit_ass1_base
+/submit_ass3_tta
+/submit_ass2
+/submit_ass4
