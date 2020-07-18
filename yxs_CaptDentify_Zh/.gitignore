@@ -1,0 +1,5 @@
+data/
+/.idea
+/ctc01/__pycache__
+/ctc01/output/
+/submit_*

@@ -8,5 +8,6 @@
 [天池-零样本图像识别初赛](https://github.com/lsh1994/tianchiorgame/tree/master/tianchi_zsl_1809)  
 [天池-2019年县域农业大脑AI挑战赛](https://github.com/lsh1994/tianchiorgame/tree/master/tianchi_agriculture_2019)  
 [DataFountain-“观云识天”-机器图像算法赛道/天气识别(PyTorch)](https://github.com/lsh1994/tianchiorgame/tree/master/df_WeatherClassify)  
-[AI研习社-英文验证码识别(PyTorch)](https://github.com/lsh1994/tianchiorgame/tree/master/yxs_CaptDentify_Eng)  
+[AI研习社-英文验证码识别(PyTorch)](https://github.com/lsh1994/tianchiorgame/tree/master/yxs_CaptDentify_Eng)    
+[AI研习社-中文验证码识别(PyTorch)](https://github.com/lsh1994/tianchiorgame/tree/master/yxs_CaptDentify_Zh)    
 
