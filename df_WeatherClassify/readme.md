@@ -1,5 +1,7 @@
 # “观云识天”-机器图像算法赛道-天气识别
 
+[博客说明](https://blog.csdn.net/nima1994/article/details/102702524)
+
 ## 实验概述
 
 训练所用方法：  
